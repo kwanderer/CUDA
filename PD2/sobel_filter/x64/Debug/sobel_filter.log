@@ -1,0 +1,41 @@
+﻿  Compiling CUDA source file sobel_filter_CUDA.cu...
+  
+  C:\Users\DO00093S\Documents\Dmitrijs_Odinokijs_171RDB285\LD_2_sobel\sobel_filter>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\nvcc.exe" -gencode=arch=compute_60,code=\"sm_60,compute_60\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\sobel_filter_CUDA.cu.obj "C:\Users\DO00093S\Documents\Dmitrijs_Odinokijs_171RDB285\LD_2_sobel\sobel_filter\sobel_filter_CUDA.cu" 
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(84): warning : integer conversion resulted in a change of sign
+  
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(84): warning : integer conversion resulted in a change of sign
+  
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(94): warning : integer conversion resulted in a change of sign
+  
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(94): warning : integer conversion resulted in a change of sign
+  
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(95): warning : integer conversion resulted in a change of sign
+  
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(84): warning : integer conversion resulted in a change of sign
+  
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(84): warning : integer conversion resulted in a change of sign
+  
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(94): warning : integer conversion resulted in a change of sign
+  
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(94): warning : integer conversion resulted in a change of sign
+  
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(95): warning : integer conversion resulted in a change of sign
+  
+  sobel_filter_CUDA.cu
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(120): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(120): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(124): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(124): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(163): warning C4996: 'cudaBindTexture': was declared deprecated
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(167): warning C4996: 'cudaBindTexture': was declared deprecated
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(214): warning C4996: 'cudaUnbindTexture': was declared deprecated
+C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(217): warning C4996: 'cudaUnbindTexture': was declared deprecated
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include\cuda_runtime.h(1352): warning C4996: 'cudaBindTexture': was declared deprecated
+  C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(163): note: see reference to function template instantiation 'cudaError_t cudaBindTexture<unsigned char,1,cudaReadModeElementType>(size_t *,const texture<unsigned char,1,cudaReadModeElementType> &,const void *,const cudaChannelFormatDesc &,size_t)' being compiled
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include\cuda_runtime.h(1716): warning C4996: 'cudaUnbindTexture': was declared deprecated
+  C:/Users/DO00093S/Documents/Dmitrijs_Odinokijs_171RDB285/LD_2_sobel/sobel_filter/sobel_filter_CUDA.cu(214): note: see reference to function template instantiation 'cudaError_t cudaUnbindTexture<unsigned char,1,cudaReadModeElementType>(const texture<unsigned char,1,cudaReadModeElementType> &)' being compiled
+  sobel_filter.vcxproj -> C:\Users\DO00093S\Documents\Dmitrijs_Odinokijs_171RDB285\LD_2_sobel\sobel_filter\x64\Debug\sobel_filter.exe
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\cudart*.dll" "C:\Users\DO00093S\Documents\Dmitrijs_Odinokijs_171RDB285\LD_2_sobel\sobel_filter\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\cudart32_110.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\cudart64_110.dll
+          2 file(s) copied.
